@@ -1,0 +1,54 @@
+:root {
+  --md-primary-fg-color: #299ac3;
+  --md-accent-fg-color: #02445b;
+}
+
+h2 {
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.3em;
+}
+
+/* 見出しの区別をつけやすく */
+h3 {
+  border-bottom: 1.2px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.3em;
+}
+
+h4 {
+  font-size: 1.05em;
+  font-weight: bold;
+  color: var(--md-accent-fg-color);
+}
+
+/* 番号付きリストを視覚的に区別 */
+ol {
+  padding-left: 1.5em;
+}
+
+ol > li {
+  margin-bottom: 1em;
+}
+
+.md-header__button.md-logo {
+  display: none;
+}
+
+.md-sidebar--primary {
+  width: 16rem !important;
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.md-sidebar--primary .md-sidebar__inner {
+  width: 100% !important;
+  padding: 0 0.5rem !important;
+  margin: 0 !important;
+}
+
+.md-content a {
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+site_name: 音響マニュアル - 劇団Tips
+
+theme:
+  name: material
+  language: ja
+  features:
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    
+markdown_extensions:
+  - toc:
+      permalink: true
+  - nl2br
+
+extra_css:
+  - stylesheets/extra.css
