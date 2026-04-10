@@ -33,20 +33,22 @@ ol > li {
   display: none;
 }
 
-.md-sidebar--primary {
-  width: 16rem !important;
-}
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 16rem !important;
+  }
 
-.md-sidebar--primary .md-sidebar__scrollwrap {
-  width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-.md-sidebar--primary .md-sidebar__inner {
-  width: 100% !important;
-  padding: 0 0.5rem !important;
-  margin: 0 !important;
+  .md-sidebar--primary .md-sidebar__inner {
+    width: 100% !important;
+    padding: 0 0.5rem !important;
+    margin: 0 !important;
+  }
 }
 
 .md-content a {
