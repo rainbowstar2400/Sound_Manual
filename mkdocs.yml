@@ -2,6 +2,7 @@ site_name: 音響マニュアル - 劇団Tips
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: ja
   features:
     - toc.integrate
